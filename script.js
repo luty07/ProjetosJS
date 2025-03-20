@@ -50,10 +50,28 @@ function reverseString(str) {
 reverseString("banana");
 
 function contarLetras(str3) {
-    var str3 = prompt("insira")
-    console.log(
-        "a palavra; " + str3 ," tem " + (str3.length) + " caracteres"
-    );
+    console.log("a palavra; " + str3 ," tem " + (str3.length) + " caracteres");
 }
-contarLetras("")
+contarLetras("batata")
 
+const carro1 = {
+    modelo: "Sandero",
+    marca: "Renault",
+    ano: "2015",
+    valor:"36.500"
+}
+console.log(carro1)
+
+function mensagemopcional() {
+   var str4 = prompt("seu nome")
+console.log("olá ", str4)
+}
+mensagemopcional("")
+
+
+function calcMedia(num1, num2, num3) {
+soma = (num1 + num2 + num3)
+media = (soma / 3)
+console.log("média é igual a ", media)
+}
+calcMedia(10, 30, 20)
