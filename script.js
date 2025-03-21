@@ -81,11 +81,20 @@ function lacoCond(i) {
         i = (i + 1)
         if (i % 3 === 0){
             console.log("o numero ", i ," é multiplo de 3")
-        }
-        else{
+        } else{
             console.log("o numero ", i ," não é multiplo de 3")
         }
         
     }
 }
 lacoCond(0)
+
+function Palindromo(str) {
+    if (str === str.split("").reverse().join("")) {
+        console.log( str ,"é palindromo")
+    } else{
+        console.log( str ,"não é palindromo")
+    }
+}
+Palindromo("arara")
+
