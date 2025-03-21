@@ -75,3 +75,17 @@ media = (soma / 3)
 console.log("média é igual a ", media)
 }
 calcMedia(10, 30, 20)
+
+function lacoCond(i) {
+    while(i < 20) {
+        i = (i + 1)
+        if (i % 3 === 0){
+            console.log("o numero ", i ," é multiplo de 3")
+        }
+        else{
+            console.log("o numero ", i ," não é multiplo de 3")
+        }
+        
+    }
+}
+lacoCond(0)
