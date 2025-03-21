@@ -50,7 +50,7 @@ function reverseString(str) {
 reverseString("banana");
 
 function contarLetras(str3) {
-    console.log("a palavra; " + str3 ," tem " + (str3.length) + " caracteres");
+    console.log("a palavra; " + str3, " tem " + (str3.length) + " caracteres");
 }
 contarLetras("batata")
 
@@ -58,43 +58,42 @@ const carro1 = {
     modelo: "Sandero",
     marca: "Renault",
     ano: "2015",
-    valor:"36.500"
+    valor: "36.500"
 }
 console.log(carro1)
 
 function mensagemopcional() {
-   var str4 = prompt("seu nome")
-console.log("olá ", str4)
+    var str4 = prompt("seu nome")
+    console.log("olá ", str4)
 }
 mensagemopcional("")
 
 
 function calcMedia(num1, num2, num3) {
-soma = (num1 + num2 + num3)
-media = (soma / 3)
-console.log("média é igual a ", media)
+    soma = (num1 + num2 + num3)
+    media = (soma / 3)
+    console.log("média é igual a ", media)
 }
 calcMedia(10, 30, 20)
 
 function lacoCond(i) {
-    while(i < 20) {
+    while (i < 20) {
         i = (i + 1)
-        if (i % 3 === 0){
-            console.log("o numero ", i ," é multiplo de 3")
-        } else{
-            console.log("o numero ", i ," não é multiplo de 3")
+        if (i % 3 === 0) {
+            console.log("o numero ", i, " é multiplo de 3")
+        } else {
+            console.log("o numero ", i, " não é multiplo de 3")
         }
-        
+
     }
 }
 lacoCond(0)
 
 function Palindromo(str) {
     if (str === str.split("").reverse().join("")) {
-        console.log( str ,"é palindromo")
-    } else{
-        console.log( str ,"não é palindromo")
+        console.log(str, "é palindromo")
+    } else {
+        console.log(str, "não é palindromo")
     }
 }
 Palindromo("arara")
-
